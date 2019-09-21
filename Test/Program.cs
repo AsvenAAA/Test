@@ -11,6 +11,9 @@ namespace Test
 {
     class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private static readonly HttpClient client = new HttpClient();
         public static string ResponseBody { get; set; }
         static async Task Main(string[] args)
